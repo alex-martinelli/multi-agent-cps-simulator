@@ -1,0 +1,11 @@
+Caso con Rumore:
+
+Si vedrà nel grafico degli input un ipotetico chattering che viene generato dal fattore rumore inserito
+questo è teoricamente corretto agli scopi teorici, ma realmente deve essere eliminato, attraverso l'uso
+di filtri passa basso, per evitare che questo porti all'usura degli attuatori.
+
+Soluzione
+Filtro passa-basso nel codice inserisci: 
+			tau_f = 0.05;   % costante di tempo filtro
+			nu_filtered = exp(-dt/tau_f) * nu_prev + (1-exp(-dt/tau_f)) * nu;
+

@@ -1,0 +1,29 @@
+=== TOPOLOGIA: catena  1→2→3 ===
+Autovalori Lp: 0.38197       2.618         1.2
+rho_min = 0.3820
+
+Connettività verificata.
+=== STRATEGIA ATTIVA: State-Feedback (Riccati) ===
+Guadagno di accoppiamento c = 1.8090
+Matrice P (Riccati):
+   12.1034    3.1623    0.0000    0.0000
+    3.1623    1.9137    0.0000    0.0000
+    0.0000    0.0000   12.1034    3.1623
+    0.0000    0.0000    3.1623    1.9137
+
+Matrice K (2x4):
+   11.4412    6.9239    0.0000    0.0000
+    0.0000    0.0000   11.4412    6.9239
+
+Matrice Observer Gain L (4x2):
+   22.9338    1.0388
+  130.7798   11.9770
+    0.9570   23.0662
+   10.9830  132.2187
+
+Simulazione in corso: SCENARIO NOMINALE...
+Completata. 20197 punti temporali elaborati.
+
+Errore tracking finale  (R1):   0.0083 m
+Errore formazione finale (R2):  0.0104 m
+Errore formazione finale (R3):  0.0095 m

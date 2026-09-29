@@ -1,0 +1,14 @@
+=== TOPOLOGIA: catena  1→2→3 ===
+Autovalori Lp: 1           1         1.2
+rho_min = 1.0000
+
+Connettività verificata.
+=== STRATEGIA ATTIVA: PID ===
+Kp = 19.7775, Kd = 7.6080, Ki = 1.9778
+
+Simulazione in corso: DISTURBO COSTANTE...
+Completata. 23145 punti temporali elaborati.
+
+Errore tracking finale  (R1):   0.0129 m
+Errore formazione finale (R2):  0.0383 m
+Errore formazione finale (R3):  0.0573 m
